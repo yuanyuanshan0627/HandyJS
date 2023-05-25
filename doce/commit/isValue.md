@@ -1,4 +1,4 @@
-##演示：
+# isValue()
 
 ```javascript
 import { isValue } from "codecraft";
