@@ -1,4 +1,4 @@
-好的，以下是HandyJS的使用文档：
+好的，以下是 HandyJS 的使用文档：
 
 # HandyJS
 
@@ -15,13 +15,13 @@ $ npm install handyjs
 ## Usage
 
 ```javascript
-const handy = require('handyjs');
+const handy = require("handyjs");
 ```
 
 Or if you prefer to use ES6 import:
 
 ```javascript
-import handy from 'handyjs';
+import handy from "handyjs";
 ```
 
 After importing `handy`, you can use any of the utility functions provided by it.
@@ -73,7 +73,14 @@ handy.flatten([1, [2, [3, [4]], 5]]);
 #### groupBy
 
 ```javascript
-handy.groupBy([{ name: 'Alice', age: 25 }, { name: 'Bob', age: 30 }, { name: 'Charlie', age: 25 }], 'age');
+handy.groupBy(
+  [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 25 },
+  ],
+  "age"
+);
 // => { '25': [{ name: 'Alice', age: 25 }, { name: 'Charlie', age: 25 }], '30': [{ name: 'Bob', age: 30 }] }
 ```
 
@@ -119,7 +126,7 @@ handy.unique([1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5]);
 #### zip
 
 ```javascript
-handy.zip(['one', 'two'], [1, 2], [true, false]);
+handy.zip(["one", "two"], [1, 2], [true, false]);
 // => [['one', 1, true], ['two', 2, false]]
 ```
 
