@@ -1,5 +1,3 @@
-好的，以下是 HandyJS 的使用文档：
-
 # HandyJS
 
 HandyJS is an npm package that provides a series of useful JavaScript utility functions.

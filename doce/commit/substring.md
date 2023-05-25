@@ -1,3 +1,5 @@
+# substring()
+
 ```javascript
 /**
  * 根据传入的参数截取字符串
